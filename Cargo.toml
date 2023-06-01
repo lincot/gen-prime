@@ -1,0 +1,48 @@
+[package]
+name = "gen-prime"
+version = "0.1.0"
+edition = "2021"
+
+# [dependencies.num-bigint]
+# version = "0.4.3"
+# default-features = false
+
+[dependencies.num-integer]
+version = "0.1.45"
+
+[dependencies.num-bigint]
+version = "0.4.3"
+
+[dependencies.glass_pumpkin]
+version = "1.6.0"
+
+[dependencies.rand]
+version = "0.8.5"
+
+
+# [dependencies.num-traits]
+# version = "0.2.15"
+# default-features = false
+
+
+[dependencies.accumulator]
+path = "./accumulator"
+# git = "https://github.com/cambrian/accumulator.git"
+
+[dependencies.num-prime]
+version = "0.4.3"
+
+[dev-dependencies.criterion]
+version = "0.4"
+features = ["html_reports"]
+
+[dev-dependencies.rand_pcg]
+version = "0.3.1"
+
+[[bench]]
+name = "bench"
+harness = false
+
+# [dependencies.glass_pumpkin]
+# version = "1.6.0"
+# tag = "v0.2.1"

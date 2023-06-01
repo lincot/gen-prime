@@ -1,0 +1,3 @@
+[submodule "accumulator"]
+	path = accumulator
+	url = https://github.com/cambrian/accumulator
